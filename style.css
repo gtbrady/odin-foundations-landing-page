@@ -1,3 +1,56 @@
-h1 {
-    color: red;
+body {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom {
+    
+}
+
+.link-container {
+    display: flex;
+}
+
+.hero-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-secondary,
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content {
+
+}
+
+
+.quote {
+
+}
+
+
+.action-call {
+
+}
+
+.footer {
+
 }
