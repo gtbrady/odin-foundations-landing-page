@@ -2,6 +2,11 @@ body {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
 .hero,
 .footer {
     background-color: #1F2937;
@@ -16,19 +21,16 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-}
-
-.header-bottom {
-    
-}
-
-.link-container {
-    display: flex;
+    align-items: center;
 }
 
 .hero-logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.link-container {
+    display: flex;
 }
 
 .hero-secondary,
@@ -37,20 +39,14 @@ body {
     color: #E5E7EB;
 }
 
-.content {
-
+.hero-content {
+    display: flex;
+    
 }
 
-
-.quote {
-
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
-
-.action-call {
-
-}
-
-.footer {
-
-}
