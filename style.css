@@ -136,3 +136,8 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 12px;
+}
