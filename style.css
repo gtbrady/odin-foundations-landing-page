@@ -72,7 +72,9 @@ button {
     font-weight: 900;
 }
 .info-header,
-.info-text {
+.info-text,
+.quote-text,
+.quote-speaker {
     color: #1F2937;
 }
 
@@ -87,6 +89,21 @@ button {
 
 .info-item {
     max-width: 200px;
+}
+
+.quotation {
+    background: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-speaker {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 
