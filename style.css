@@ -69,6 +69,24 @@ button {
 
 .info-header {
     font-size: 36px;
-    color: #1F2937;
     font-weight: 900;
 }
+.info-header,
+.info-text {
+    color: #1F2937;
+}
+
+.info-text {
+    font-size: 18px;
+    
+}
+
+.info-container {
+    display: flex;
+}
+
+.info-item {
+    max-width: 200px;
+}
+
+
