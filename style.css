@@ -1,3 +1,4 @@
+/* type selectors */
 body {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #F9FAF8;
@@ -12,6 +13,17 @@ button {
 .footer {
     background-color: #1F2937;
 }
+
+/* shared */
+
+.info-header,
+.info-text,
+.quote-text,
+.quote-speaker {
+    color: #1F2937;
+}
+
+/* hero/header section classes */
 
 .hero {
     display: flex;
@@ -60,6 +72,8 @@ button {
     font-weight: 900;
 }
 
+/* information section classes */
+
 .information {
     display: flex;
     flex-direction: column;
@@ -71,12 +85,7 @@ button {
     font-size: 36px;
     font-weight: 900;
 }
-.info-header,
-.info-text,
-.quote-text,
-.quote-speaker {
-    color: #1F2937;
-}
+
 
 .info-text {
     font-size: 18px;
@@ -90,6 +99,8 @@ button {
 .info-item {
     max-width: 200px;
 }
+
+/* quotation section classes */
 
 .quotation {
     background: #E5E7EB;
@@ -106,4 +117,22 @@ button {
     font-weight: 700;
 }
 
+/* action-call section classes */
+.action-call {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+}
 
+.action-call-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* footer section classes */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
