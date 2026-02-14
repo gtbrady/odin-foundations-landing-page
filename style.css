@@ -7,13 +7,15 @@ body {
     background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     
 }
 
 button {
     color: #F9FAF8;
     background-color: #3882F6;
+    width: 72px;
+    height: 36px;
+    border-radius: 8px;
 }
 
 ul {
@@ -78,6 +80,8 @@ a {
 .hero-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-main-text {
@@ -129,7 +133,7 @@ a {
     font-weight: 300;
     font-style: italic;
 }
-
+/* justify-content: space-between; */
 .quote-speaker {
     font-size: 18px;
     font-weight: 700;
@@ -147,6 +151,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.action-call-button {
+    border-color: white;
 }
 
 /* footer section classes */
