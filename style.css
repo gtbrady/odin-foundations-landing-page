@@ -167,6 +167,8 @@ a {
     display: flex;
     justify-content: space-around;
     flex: 1;
+    margin: 100px 400px;
+    padding: 64px;
 }
 
 .action-call-left {
