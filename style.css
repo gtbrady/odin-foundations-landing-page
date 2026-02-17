@@ -134,11 +134,17 @@ a {
 
 /* quotation section classes */
 
-.quotation {
+.quotation-background {
     background: #E5E7EB;
+}
+
+.quotation {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 0 400px;
+    padding: 64px;
+    gap: 8px;
 }
 
 .quote-text {
@@ -146,10 +152,13 @@ a {
     font-weight: 300;
     font-style: italic;
 }
-/* justify-content: space-between; */
+
 .quote-speaker {
     font-size: 18px;
     font-weight: 700;
+    text-align: right;
+    margin-right: 32px;
+    
 }
 
 /* action-call section classes */
