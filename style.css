@@ -15,7 +15,7 @@ button {
     background-color: #3882F6;
     width: 72px;
     height: 36px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 ul {
@@ -95,6 +95,10 @@ a {
     font-weight: 900;
 }
 
+.hero-button {
+    border: none;
+}
+
 .hero-image {
     width: 500px;
     height: auto;
@@ -132,6 +136,10 @@ a {
     max-width: 200px;
 }
 
+.info-image {
+    border-radius: 32px;
+}
+
 /* quotation section classes */
 
 .quotation-background {
@@ -164,6 +172,7 @@ a {
 /* action-call section classes */
 .action-call {
     background-color: #3882F6;
+    border-radius: 12px;
     display: flex;
     justify-content: space-around;
     flex: 1;
@@ -187,6 +196,7 @@ a {
     justify-content: center;
     align-items: center;
     flex: 1;
+    padding: 30px;
     
 }
 
